@@ -6,10 +6,10 @@
  }
 
  .navegador{
-    background-color:rgba(233, 205, 169, 0.795);
-    width: 100%;;
+    background-color:rgba(204, 185, 155, 0.494);
+    width: 100%;
     padding: 10px;
-    position: flex;
+    position:sticky;
     justify-content:center;
     z-index: 2;
     top: 0px;
@@ -17,61 +17,70 @@
 
 .navegador-links{
     display: flex;
-    gap: 20px;
+    gap: 30px;
+
 }
 
 .navegador-link a{
-    display: block;
-    padding: 20px 5px;
-    color:rgb(77, 53, 24);
+    display:block;
+    padding: 10px 5px;
+    color:rgb(85, 64, 38);
     text-decoration: none;
     font-style: italic;
+    
+    
 }
 
 .portada{
     width: 100%;
-    height: 300%;
+    height: 340px;
     position: relative;
+    justify-content: center;
+    align-items: center;
     z-index: -1;
 }
 
 .navegador-link{
     list-style: none;
+    display: flex;
 }
 
 .portada-imagen{
     width: inherit;
     height: inherit;
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
+    object-fit:cover;
+    position:absolute;
+    z-index:-1;
     
 }
 
 .titulo-inicio{
     font-size: 110px;
-    font-weight: bold;
+    font-weight:bold;
     font-style:italic;
     font-family:"Playfair";
     text-align: center;
-    color: rgb(251, 251, 250);
+    color: rgb(232, 224, 217);
     text-shadow:  2px 2px 2px rgb(1, 1, 0);
+    position:relative;
+    padding-top: 0px;
 }
 
 
 .subtitulo{
-    color:rgb(102, 69, 37);
+    color:rgb(225, 223, 219);
     font-size: 40px;
     text-align: center;
     font-style: italic;
     font-family: "Playfair";
     padding-bottom: 20px;
-    padding-top: 30px;
+    text-shadow:  2px 2px 2px rgb(1, 1, 0);
+    padding-top: 10px;
 }
 
 
 .titulo2{
-    color: rgb(90, 64, 38);
+    color: rgb(134, 118, 101);
     font-size: 30px;
     margin-top: auto;
     text-align: center;
@@ -81,21 +90,28 @@
 
 .tarjetas{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-around;
-    gap:25px;
+    gap: 20px;
+    padding-top: 150px;
 
 }
 
 .tarjeta-titulo{
    font-weight:bold;
    text-align: center;
+   padding-top: 10px;
+   color: rgb(41, 40, 40);
+   font-style: italic;
+   font-family: "Playfair";
+   font-size: 25px;
+
 }
 
 
 .tarjeta{
     width: 300px;
-    background-color: rgb(216, 195, 168);
+    background-color: rgb(233, 217, 195);
     margin: 10px;
     padding: 25px;
     position: relative;
@@ -107,15 +123,15 @@
 
 .tarjeta-img{
     width: 100%;
-    height: 150px;
+    height: 100%;
     object-fit: cover;
 }
 
 .tarjeta-boton{
     width: 100px;
     height: 40px;
-    background-color: rgb(238, 229, 216);
-    color: rgb(5, 5, 4);
+    background-color: rgb(12, 12, 11);
+    color: rgba(6, 5, 3, 0.868);
     border: 0px;
     padding: 10px;
     border-radius: 5px;
@@ -126,7 +142,7 @@
 }
 
 .tarjeta-boton{
-    background-color: rgb(163, 143, 113);
+    background-color: rgba(127, 95, 43, 0.448);
 }
 
 .formulario-contacto{
@@ -135,12 +151,10 @@
 }
 
 .galeria{
-    width: 80%;
-    margin: auto;
-    padding:50px ;
+    padding:80px ;
     display:grid;
     gap: 20px;
-    grid-template-columns: 200px;
+    grid-template-columns: 5,0px;
     grid-template-rows: 200px;
     grid-template-areas: "img1 img2 img2 img4" 
                          "img1 img2 img2 img4"             
@@ -157,8 +171,7 @@
     height: 100%;
     object-fit: cover;
 }
-
-.img1{ 
+.img1 { 
     grid-area: img1;
     position: relative;
     display: flex;
@@ -175,7 +188,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
+    position:absolute;
     z-index:-1
 }
 
@@ -214,10 +227,11 @@
 
 .portada-img{
     width: 100%;
-    height: 100%;
     position:relative;
     z-index: -1;
 }
+
+
 .form-contactos{
     background-color: rgba(240, 227, 207, 0.803);
     width: 350px;
