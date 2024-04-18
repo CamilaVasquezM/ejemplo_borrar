@@ -1,0 +1,60 @@
+.formulario-contacto{
+    background-color:peru
+}
+
+.form-contactos{
+    background-color: $color-contraste;
+    width: 350px;
+    margin: 40px auto 40px auto;
+    padding: 20px;
+    border-radius: $radio-bordes;
+}
+.form-contactos-grupo{
+  height: 80px;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.form-contactos-grupo-mensaje{
+    gap: 10px;
+    height: 100%;
+    margin: 15px 0px;
+}
+.form-contactos-grupo-label{
+    color: rgb(17, 16, 16);
+}
+.form-contactos-grupo-input{
+    width: 100%;
+    background-color: transparent;
+    color: rgb(69, 51, 27);
+    border: 1px solid rgb(134, 113, 74);
+    padding: 5px 10px;
+    border-radius: $radio-bordes;
+    transition:0,5s;
+}
+.form-contactos-grupo-input::placeholder{
+    color: rgb(14, 13, 13);
+}
+
+.form-contactos-grupo-input:focus{
+    border: 1px solid white;
+    outline: none;
+}
+.form-contactos-boton{
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(210, 196, 178);
+    font-weight: bold;
+    background-color: rgb(186, 157, 114);
+    border: 0px;
+    border-radius: $radio-bordes;
+    padding: 10px 5px;
+    margin: 10px 0px;
+}
+
+
+.portada-imagen-contactos{
+    width: 100%;
+    position:relative;
+    z-index: -1;
+}

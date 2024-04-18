@@ -1,0 +1,58 @@
+.portada{
+    width: 100%;
+    height: 340px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.portada-imagen{
+    width: inherit;
+    height: inherit;
+    object-fit:cover;
+    position:absolute;
+    z-index:-1;
+    
+}
+
+.titulo-inicio{
+    font-size: 110px;
+    font-weight:bold;
+    font-style:italic;
+    font-family:"Playfair";
+    text-align: center;
+    color: rgb(232, 224, 217);
+    text-shadow:  2px 2px 2px rgb(1, 1, 0);
+    position:relative;
+    padding-top: 0px;
+    @media(max-width: 992px) {
+            font-size: 48px;
+    }  
+    @media(max-width: 768px){
+        font-size: 32px;
+    }     
+}
+
+
+.subtitulo{
+    color:rgb(225, 223, 219);
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-family: "Playfair";
+    padding-bottom: 20px;
+    text-shadow:  2px 2px 2px rgb(1, 1, 0);
+    padding-top: 10px;
+}
+
+
+.titulo2{
+    color: $color-primario;
+    font-size: 30px;
+    margin-top: auto;
+    text-align: center;
+    font-style: italic;
+    font-family: "Playfair";
+}
+

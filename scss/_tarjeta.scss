@@ -1,0 +1,63 @@
+
+.tarjetas{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 150px;
+    margin-bottom: 60px;
+    @media (max-width:992px) {
+        margin-bottom: 60px;;
+        
+    }
+}
+
+
+.tarjeta-titulo{
+   font-weight:bold;
+   text-align: center;
+   padding-top: 10px;
+   color: rgb(41, 40, 40);
+   font-style: italic;
+   font-family: "Playfair";
+   font-size: 25px;
+
+}
+
+
+.tarjeta{
+    width: 300px;
+    background-color: $color-terciario;
+    margin: 10px;
+    padding: 25px;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    gap: 70px;
+}
+
+
+.tarjeta-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tarjeta-boton{
+    @extend %boton;
+    background-color: rgb(12, 12, 11);
+    color: rgba(6, 5, 3, 0.868);
+    border-radius: $radio-bordes;
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    transition: 0,5s;
+    &:hover{
+        background-color: $color-terciario;
+        width: 150px;
+    }
+}
+
+.tarjeta-boton{
+background-color: $color-primario;
+}

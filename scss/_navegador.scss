@@ -1,0 +1,27 @@
+.navegador{
+    background-color: $color-primario;
+    width: 100%;
+    padding: 10px;
+    position:sticky;
+    justify-content:center;
+    z-index: 2;
+    top: 0px;
+}
+
+.navegador-links{
+    display: flex;
+    gap: 30px;
+}
+
+.navegador-link a{
+    display:block;
+    padding: 10px 5px;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.navegador-link{
+    list-style: none;
+    display: flex;
+}
