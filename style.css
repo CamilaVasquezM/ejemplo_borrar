@@ -19,14 +19,12 @@
   width: 100%;
   padding: 10px;
   position: sticky;
-  justify-content: center;
   z-index: 2;
   top: 0px;
 }
 
 .navegador-links {
-  display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 
 .navegador-link a {
@@ -39,7 +37,6 @@
 
 .navegador-link {
   list-style: none;
-  display: flex;
 }
 
 .portada {
@@ -185,18 +182,17 @@
   grid-template-rows: repeat(6, 1, 50px);
   grid-template-areas: "img1 img2 img2 img4" "img1 img2 img2 img4" "img1 img3 img3 img4" "img5 img5 img6 img6" "img5 img5 img6 img6" "img7 img7 img7 img7";
 }
-@media (max-width: 992px) {
-  .galeria {
-    width: 100%;
-    padding: 5px;
-  }
-}
-
 .galeria img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (max-width: 992px) {
+  .galeria {
+    width: 100%;
+    padding: 5px;
+  }
 }
 
 .img1 {
