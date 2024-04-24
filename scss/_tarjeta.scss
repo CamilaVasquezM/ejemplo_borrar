@@ -26,14 +26,23 @@
 
 
 .tarjeta{
-    width: 300px;
+    width: 250px;
     background-color: $color-terciario;
-    margin: 10px;
-    padding: 25px;
+    margin: 20px;
+    padding: 20px;
     position: relative;
     display:flex;
     flex-direction:column;
-    gap: 70px;
+    gap: 20px;
+    
+    p{
+        color: rgb(79, 79, 72);
+        font-style: italic;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+    }
 }
 
 
