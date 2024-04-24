@@ -56,3 +56,39 @@
     font-family: "Playfair";
 }
 
+.presentacion{
+    font-size: 20px;
+    color: rgb(90, 65, 29);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    }
+
+.ubicacionesdelcafe{
+    color: rgb(35, 28, 14);
+    font-size: 30px;
+    h1{
+        padding-top: 50px;
+        text-align:center;
+        padding-bottom: 30px;
+        margin-left: 20%;
+        margin-right: 20%; 
+        font-style: italic;   }
+    p{
+        font-size: 24px;
+        font-style: italic;
+        color: rgb(97, 61, 32);
+        margin-right: 20%;;
+        margin-left: 20%;
+        text-align: center;
+    }
+}
+.portada-imagen-contactos{
+    width: inherit;
+    height: inherit;
+    object-fit:cover;
+    position:absolute;
+    z-index:-1;
+}

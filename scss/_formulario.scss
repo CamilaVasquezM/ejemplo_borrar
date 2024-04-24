@@ -1,13 +1,15 @@
 .formulario-contacto{
-    background-color:peru
+    background-color:rgb(235, 200, 165)
 }
 
 .form-contactos{
-    background-color: $color-contraste;
+    background-color:rgb(235, 214, 192);
     width: 350px;
     margin: 40px auto 40px auto;
     padding: 20px;
     border-radius: $radio-bordes;
+    border-radius: 50px;
+    align-items: center;
 }
 .form-contactos-grupo{
   height: 80px;
@@ -18,7 +20,7 @@
 .form-contactos-grupo-mensaje{
     gap: 10px;
     height: 100%;
-    margin: 15px 0px;
+    margin: 25px 0px;
 }
 .form-contactos-grupo-label{
     color: rgb(17, 16, 16);
@@ -26,8 +28,8 @@
 .form-contactos-grupo-input{
     width: 100%;
     background-color: transparent;
-    color: rgb(69, 51, 27);
-    border: 1px solid rgb(134, 113, 74);
+    color: rgb(200, 181, 158);
+    border: 1px solid rgb(73, 63, 48);
     padding: 5px 10px;
     border-radius: $radio-bordes;
     transition:0,5s;
@@ -43,18 +45,18 @@
 .form-contactos-boton{
     font-size: 20px;
     width: 100%;
-    background-color: rgb(210, 196, 178);
+    background-color: rgb(215, 205, 192);
     font-weight: bold;
-    background-color: rgb(186, 157, 114);
+    background-color: rgb(170, 149, 116);
     border: 0px;
     border-radius: $radio-bordes;
-    padding: 10px 5px;
-    margin: 10px 0px;
+    padding: 5px 5px;
+    margin: 15px 0px;
 }
 
 
 .portada-imagen-contactos{
     width: 100%;
-    position:relative;
+    position:absolute;
     z-index: -1;
 }
